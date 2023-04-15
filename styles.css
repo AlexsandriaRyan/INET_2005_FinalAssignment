@@ -1,0 +1,66 @@
+/* ----- General Styling -----*/
+body {
+    margin: auto;
+    padding: 10%;
+    background-color: pink;
+    text-align: center;
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
+}
+
+
+/* ----- Text Styling -----*/
+h1 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+p, label, input, form {
+    font-size: 12px;
+}
+
+
+/* ----- Button Styling -----*/
+button {
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.submit {
+    background-color: forestgreen;
+    color: white;
+}
+
+.submit:hover {
+    background-color: darkgreen;
+}
+
+.delete {
+    background-color: indianred;
+    color: white;
+}
+
+.delete:hover {
+    background-color: darkred;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+/* ----- Results Styling -----*/
+.result {
+    margin: auto;
+    width: 20%;
+    border: 1px solid palevioletred;
+}
